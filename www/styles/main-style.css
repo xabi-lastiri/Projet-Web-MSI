@@ -1,0 +1,25 @@
+#bandeau {
+    text-align: center;
+    background-color: #D8A79F;
+    width: 100%;
+    line-height: 200px;
+}
+
+.navigation {
+    display: inline;
+    padding: 10px;
+    border: 2px;
+    border: solid;
+}
+
+main {
+    clear: both;
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 20px;
+    background-color: #EDEABD;
+    border-radius: 20px;
+}
