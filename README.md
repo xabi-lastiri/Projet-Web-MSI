@@ -41,4 +41,4 @@ https://recherche-entreprises.api.gouv.fr/search?activite_principale=59.11C&cate
 
 Nous avons récupéré la liste (et les coordonnées) de 25 entités françaises exerçant une activité de production audiovisuelle pour le cinéma (code APE : 5911C).
 
-Nous n'avons rencontré aucune difficulté :)
+Nous avons rencontré quelques difficultés pour intégrer le code postal du siège social dans le résultat de la requête.
