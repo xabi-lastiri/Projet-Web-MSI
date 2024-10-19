@@ -33,3 +33,9 @@ _Source : moodboard généré à partir de nos réflexions via Dal-e._
 ![image](https://github.com/user-attachments/assets/1c5d4363-9635-46e1-bee2-8fb1abc1722b)
 
 _Source : Wikimedia Foundation_
+
+## Open Data
+
+Notre requête :
+https://recherche-entreprises.api.gouv.fr/search?activite_principale=59.11C&categorie_entreprise=PME%2CETI&minimal=true&per_page=25
+
