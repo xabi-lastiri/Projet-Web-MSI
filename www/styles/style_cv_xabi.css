@@ -1,0 +1,90 @@
+#Contact {
+    font-family: Avenir Next, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+
+body {
+    background-color: #FEFCF6;
+}
+
+main {
+    padding: 0px 90px 90px 90px;
+}
+
+header {
+    padding: 50px;
+    background-image: url(../images/ventura-clair.jpg);
+    background-position: 0;
+    border-radius: 0px 0px 60px 60px;
+}
+
+#intro {
+    font-size: 19px;
+    text-align: center;
+    margin: 30;
+}
+
+h1 {
+    color: rgb(0, 126, 229);
+    font-family: Avenir Next, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 126, 229);
+    font-family: Avenir Next, sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: Avenir Next, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: Avenir Next, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+ul {
+    color: rgb(0, 0, 0);
+    font-family: Avenir Next, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.colonnes {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+    .gauche {
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .droite {
+        flex-grow: 1;
+    }
+
+
+.colonne2 {
+    display: flex;
+    gap: 50px;
+    }
+    #Compétences {
+        text-align: left;
+    }
+    #Loisirs {
+        text-align: left;
+    }
