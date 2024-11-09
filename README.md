@@ -36,11 +36,13 @@ _Source : Wikimedia Foundation_
 
 ## Open Data
 
-Notre requête :
-https://recherche-entreprises.api.gouv.fr/search?activite_principale=59.11C&categorie_entreprise=GE&minimal=true&include=siege%2Ccomplements&page=1&per_page=25
+Notre requête : https://recherche-entreprises.api.gouv.fr/search?activite_principale=59.11C&categorie_entreprise=GE&minimal=true&include=siege%2Ccomplements&page=1&per_page=25
 
-Nous avons récupéré la liste (et les coordonnées) de 25 entités françaises exerçant une activité de production audiovisuelle pour le cinéma (code APE : 5911C).
-
-Nous avons rencontré quelques difficultés pour intégrer le code postal du siège social dans le résultat de la requête.
+On a besoin de trouver tous les entreprises qui fabriquent les dessins animés. 
+Premièrement, on a trouvé le code NAF: 5911C pour les entreprises qui fabriquent les films en France.
+Ensuite, on a essayé de changer la catégorie_entreprise parmi GE, ETI et PME, pour avoir un résultat plus précis. On a trouvé qu’il y a plus que 7000 d’entreprises PME, 71 entreprises ETI et 23 entreprises GE. Les grandes entreprises sont choisies, parce que ils représentent mieux l’industrie générale de la France. 
+En important les données dans l’outil Flourish, on a rencontré un problème. La seule information valable qui s’affiche dans Flourish est l’année de création. Pour faire une chose plus intéressante, on a écrit manuellement les latitudes et les longitudes dans l’outil. 
+Finalement, on fait un joli graphe: Locator Map. 
+En plus, pour avoir une image plus générale du monde entier, on a récupéré les données des 10 plus grandes entreprises de dessin animé par ChatGPT. Et on a fait un deuxième Locator Map.
 
 ## Web Scraping
