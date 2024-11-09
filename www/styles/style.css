@@ -5,10 +5,15 @@
     100% { background-color: #f2eecb; }
 }
 
+@font-face {
+    font-family: 'montserrat';
+    src: url(montserrat.ttf)
+}
+
 body {
     animation: gradientShift 15s infinite alternate;
-    font-family: 'Press Start 2P', cursive;
     color: #333;
+    font-family: 'montserrat', sans-serif;
     background-color: #f0f0f0; /* Keep only one background color */
     cursor: url('path/to/pixel-pointer.png'), auto;
     margin: 0;
@@ -25,7 +30,7 @@ header {
     text-align: center;
     padding: 20px;
     color: #333;
-    font-family: 'Futura', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-size: 2em;
     border-bottom: 4px solid #FFA500;
     text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.6);
