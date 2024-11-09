@@ -1,4 +1,4 @@
-# **Thème de notre projet : Les dessins animés de notre enfance**
+# **Les dessins animés de notre enfance**
 
 Ce projet de site internet présentera nos dessins animés favoris de notre enfance, en différentes langues (arabe, français et chinois). 
 
@@ -19,16 +19,16 @@ Ce sont des sites internet dynamiques : selon si l'utilisateur est authentifié 
 Ils sont composés de codes HTML, CSS et JavaScript (pour les animations).
 Travaux pratiques dans le cadre du cours d'introduction aux technologies du web.
 
-### Moodboard
+## Moodboard
 ![image](https://github.com/user-attachments/assets/ec1ec72d-056f-495c-aca8-9a410bff8d16)
 
 _Source : moodboard généré à partir de nos réflexions via Dal-e._
 
-### Palette de couleurs
+## Palette de couleurs
 
 ![image](https://github.com/user-attachments/assets/d2573aca-1d5a-46f3-b1ec-8409b439be47)
 
-#### Police d'écriture
+## Police d'écriture
 
 ![image](https://github.com/user-attachments/assets/1c5d4363-9635-46e1-bee2-8fb1abc1722b)
 
@@ -42,3 +42,5 @@ https://recherche-entreprises.api.gouv.fr/search?activite_principale=59.11C&cate
 Nous avons récupéré la liste (et les coordonnées) de 25 entités françaises exerçant une activité de production audiovisuelle pour le cinéma (code APE : 5911C).
 
 Nous avons rencontré quelques difficultés pour intégrer le code postal du siège social dans le résultat de la requête.
+
+## Web Scraping

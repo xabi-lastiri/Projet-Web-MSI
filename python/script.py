@@ -14,7 +14,7 @@ soup = bs(contenu, "html.parser")
 # Étape 2 : récupérer les divisions contenant les épisodes (une division = une saison)
 saisons = soup.find_all('div', class_= "colonnes")
 
-# Étape 3 : récuperer la liste des épisodes dans chaque division (une division = une saison) et les enregistrer dans la liste
+# Étape 3 : récuperer la liste des épisodes dans chaque division (une division = une saison) et les enregistrer dans le dictionnaire
 for saison in saisons:
     titres_episode = saison.find_all('i')
     for titre_episode in titres_episode:
