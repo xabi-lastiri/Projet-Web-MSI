@@ -1,7 +1,5 @@
 # **Les dessins animés de notre enfance**
 
-# Je suis Xabi
-
 Ce projet de site internet présentera nos dessins animés favoris de notre enfance, en différentes langues (arabe, français et chinois). 
 
 Le concept : créer une plateforme (réseau social) qui rassemble les gens autour de leurs dessins animés d'enfance favoris (tout style confondu), indépendamment de leur nationalité.
