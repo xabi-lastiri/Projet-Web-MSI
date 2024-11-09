@@ -21,6 +21,10 @@ body {
     box-sizing: border-box;
 }
 
+p {
+    font-size: 22px;
+}
+
 .selection {
     padding-left: 20%;
     padding-right: 20%;
@@ -32,7 +36,6 @@ header {
     height: 200px;
     width: 100%;
     text-align: center;
-    padding: 20px;
     color: #333;
     font-family: 'montserrat', sans-serif;
     font-size: 2em;
@@ -41,6 +44,10 @@ header {
     padding: 20px;
     background-color: #333;
     color: #fff;
+}
+
+section {
+    background-color: #D8A79F;
 }
 
 /* Retro Navigation Styling */
