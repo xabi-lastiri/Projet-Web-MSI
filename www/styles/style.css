@@ -21,6 +21,11 @@ body {
     box-sizing: border-box;
 }
 
+.selection {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 /* Header Styling */
 header {
     background-color: #FFD700; /* Choose one */
@@ -97,6 +102,7 @@ section {
 /* Text Spacing for Titles with Retro Glow */
 h3 {
     display: flex;
+    font-size: 24px;
     align-items: center;
     margin: 15px 0;
     text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.6); /* Neon pink glow */
@@ -115,6 +121,7 @@ main {
 /* Heading styles */
 h2 {
     color: #333;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
 }
