@@ -21,7 +21,6 @@ body {
     box-sizing: border-box;
 }
 
-
 /* Header Styling */
 header {
     background-color: #FFD700; /* Choose one */
@@ -39,7 +38,6 @@ header {
     color: #fff;
 }
 
-
 /* Retro Navigation Styling */
 nav ol {
     display: flex;
@@ -49,7 +47,6 @@ nav ol {
     margin: 20px 0;
     justify-content: center;
 }
-
 
 nav .navigation a {
     text-decoration: none;
@@ -61,7 +58,6 @@ nav .navigation a {
     background-color: #FFD700;
     transition: background-color 0.3s, transform 0.3s;
 }
-
 
 nav .navigation a:hover {
     background-color: #FFA500;
@@ -82,7 +78,6 @@ section {
     border-radius: 8px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
 }
-
 
 /* Thumbnail Images */
 .thumbnail {
@@ -106,8 +101,6 @@ h3 {
     margin: 15px 0;
     text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.6); /* Neon pink glow */
 }
-
-
 
 #bandeau {
     font-size: 2.5em;
