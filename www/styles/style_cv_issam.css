@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#contact {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+/* Main container using CSS Grid */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left and Right column styles */
+.gauche, .droite {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.gauche h2, .droite h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #4CAF50;
+    color: #4CAF50;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+ul li::before {
+    content: "• ";
+    color: #4CAF50;
+    font-weight: bold;
+    position: absolute;
+    left: -20px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Custom style for sections in the left column */
+section {
+    margin-bottom: 20px;
+}
+
+/* Skills and Languages styles */
+.skills-list, .languages-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills-list li, .languages-list li {
+    padding: 5px;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+}
+
+/* Activities and Interests styles */
+.activities-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.activities-list li {
+    margin-left: 20px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr; /* Stack sections vertically */
+    }
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    header img {
+        margin: 0 auto 10px;
+    }
+}
