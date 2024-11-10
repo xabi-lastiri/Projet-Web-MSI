@@ -19,7 +19,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    justify-items: center;
 }
 
 p {
@@ -100,6 +99,7 @@ h3 {
 
 main {
     width: 80%;
+    margin: 0 auto;
 }
 
 h2 {
