@@ -1,6 +1,6 @@
 # **Les dessins animés de notre enfance**
 
-Ce projet de site internet présentera nos dessins animés favoris d’enfance, en plusieurs langues (arabe, français et chinois).
+Ce projet de site internet présente nos dessins animés favoris d’enfance, en plusieurs langues (arabe, français et chinois).
 
 
 ## **Sites internet similaires**
@@ -36,13 +36,14 @@ _Source : Wikimedia Foundation_
 
 Notre requête : https://recherche-entreprises.api.gouv.fr/search?activite_principale=59.11C&categorie_entreprise=GE&minimal=true&include=siege%2Ccomplements&page=1&per_page=25
 
-Notre requête : https://recherche-entreprises.api.gouv.fr/search?activite_principale=59.11C&categorie_entreprise=GE&minimal=true&include=siege%2Ccomplements&page=1&per_page=25
+Nous avons recherché une liste d'entreprises évoluant dans le secteur de la production audiovisuelle en France (A), et dans le monde (B).
 
-Nous recherchons toutes les entreprises produisant des dessins animés. Nous avons d'abord identifié le code NAF 5911C pour les entreprises produisant des films en France. Ensuite, nous avons ajusté la catégorie d'entreprise parmi GE, ETI et PME afin d'obtenir des résultats plus précis. Nous avons constaté qu'il existe plus de 7000 entreprises de type PME, 71 entreprises ETI et 23 entreprises GE. Nous avons choisi les grandes entreprises car elles représentent mieux l'industrie en France.
+### Entreprises françaises
+Nous avons d'abord identifié le code NAF 5911C pour les entreprises produisant des films en France. Ensuite, nous avons ajusté la catégorie d'entreprise parmi GE, ETI et PME afin d'obtenir des résultats plus précis. Nous avons constaté qu'il existe plus de 7000 entreprises de type PME, 71 entreprises ETI et 23 entreprises GE. Nous avons choisi les grandes entreprises car elles représentent mieux l'industrie en France.
 
-En important les données dans Flourish, un problème est apparu : seule l'année de création s’affiche correctement. Pour rendre le graphique plus intéressant, nous avons ajouté manuellement les coordonnées de latitude et de longitude. Finalement, nous avons obtenu un graphique de type Locator Map.
+En important les données dans Flourish, un problème est apparu : seule l'année de création s’affichait correctement. Pour rendre le graphique plus intéressant, nous avons ajouté manuellement les coordonnées de latitude et de longitude. Finalement, nous avons obtenu un graphique de type Locator Map.
 
+### Entreprises dans le monde
 De plus, pour une vue d'ensemble mondiale, nous avons récupéré les informations sur les 10 plus grandes entreprises de dessins animés grâce à ChatGPT et créé un second Locator Map.
 
 ## Web Scraping
-
