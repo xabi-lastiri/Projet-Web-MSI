@@ -1,12 +1,11 @@
 # **Les dessins animés de notre enfance**
 
-Ce projet de site internet présentera nos dessins animés favoris de notre enfance, en différentes langues (arabe, français et chinois). 
+Ce projet de site internet présentera nos dessins animés favoris d’enfance, en plusieurs langues (arabe, français et chinois).
 
-Le concept : créer une plateforme (réseau social) qui rassemble les gens autour de leurs dessins animés d'enfance favoris (tout style confondu), indépendamment de leur nationalité.
 
 ## **Sites internet similaires**
 
-Il n'existe pas de plateformes spécialisées dans cette thématique. Cependant, certains articles de blog (ou pages de site en lien avec la cinématographie) proposent des sélections de dessins animés pour alimenter le désir de nostalgie des gens.
+Bien qu’il n’existe pas de plateformes spécifiquement dédiées à ce thème, certains articles de blog, publications sur les réseaux sociaux ou pages de sites centrées sur la cinématographie proposent des sélections de dessins animés pour susciter la nostalgie.
 
 Quelques exemples :
 - https://myanimelist.net/
@@ -14,10 +13,9 @@ Quelques exemples :
 
 ### Myanimelist et Anilist
 
-Ce sont des sites internet dynamiques : selon si l'utilisateur est authentifié ou non, le contenu des pages varient (titres recommandées, présentation de la page d'accueil...).
+Ce sont des sites dynamiques : selon que l’utilisateur est authentifié ou non, le contenu des pages varie (titres recommandés, présentation de la page d'accueil, etc.).
 
 Ils sont composés de codes HTML, CSS et JavaScript (pour les animations).
-Travaux pratiques dans le cadre du cours d'introduction aux technologies du web.
 
 ## Moodboard
 ![image](https://github.com/user-attachments/assets/ec1ec72d-056f-495c-aca8-9a410bff8d16)
@@ -38,11 +36,13 @@ _Source : Wikimedia Foundation_
 
 Notre requête : https://recherche-entreprises.api.gouv.fr/search?activite_principale=59.11C&categorie_entreprise=GE&minimal=true&include=siege%2Ccomplements&page=1&per_page=25
 
-On a besoin de trouver tous les entreprises qui fabriquent les dessins animés. 
-Premièrement, on a trouvé le code NAF: 5911C pour les entreprises qui fabriquent les films en France.
-Ensuite, on a essayé de changer la catégorie_entreprise parmi GE, ETI et PME, pour avoir un résultat plus précis. On a trouvé qu’il y a plus que 7000 d’entreprises PME, 71 entreprises ETI et 23 entreprises GE. Les grandes entreprises sont choisies, parce que ils représentent mieux l’industrie générale de la France. 
-En important les données dans l’outil Flourish, on a rencontré un problème. La seule information valable qui s’affiche dans Flourish est l’année de création. Pour faire une chose plus intéressante, on a écrit manuellement les latitudes et les longitudes dans l’outil. 
-Finalement, on fait un joli graphe: Locator Map. 
-En plus, pour avoir une image plus générale du monde entier, on a récupéré les données des 10 plus grandes entreprises de dessin animé par ChatGPT. Et on a fait un deuxième Locator Map.
+Notre requête : https://recherche-entreprises.api.gouv.fr/search?activite_principale=59.11C&categorie_entreprise=GE&minimal=true&include=siege%2Ccomplements&page=1&per_page=25
+
+Nous recherchons toutes les entreprises produisant des dessins animés. Nous avons d'abord identifié le code NAF 5911C pour les entreprises produisant des films en France. Ensuite, nous avons ajusté la catégorie d'entreprise parmi GE, ETI et PME afin d'obtenir des résultats plus précis. Nous avons constaté qu'il existe plus de 7000 entreprises de type PME, 71 entreprises ETI et 23 entreprises GE. Nous avons choisi les grandes entreprises car elles représentent mieux l'industrie en France.
+
+En important les données dans Flourish, un problème est apparu : seule l'année de création s’affiche correctement. Pour rendre le graphique plus intéressant, nous avons ajouté manuellement les coordonnées de latitude et de longitude. Finalement, nous avons obtenu un graphique de type Locator Map.
+
+De plus, pour une vue d'ensemble mondiale, nous avons récupéré les informations sur les 10 plus grandes entreprises de dessins animés grâce à ChatGPT et créé un second Locator Map.
 
 ## Web Scraping
+
