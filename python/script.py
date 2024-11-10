@@ -6,15 +6,15 @@ import csv
 liste_episodes = {}
 compteur = 0
 
-# Étape 1 : récupérer le contenu de la page
+# Étape 1 : récupérer le contenu de la page wikipedia
 url = "https://fr.wikipedia.org/wiki/Goldorak"
 contenu = rq.get(url).text
 soup = bs(contenu, "html.parser")
 
-# Étape 2 : récupérer les divisions contenant les épisodes (une division = une saison)
+# Étape 2 : extraire les informations contenues dans chaque division de class "colonnes", qui contient la liste des épisodes (une division = une saison)
 saisons = soup.find_all('div', class_= "colonnes")
 
-# Étape 3 : récuperer la liste des épisodes dans chaque division (une division = une saison) et les enregistrer dans le dictionnaire
+# Étape 3 : extraire la liste des épisodes dans chaque division (une division = une saison) et les enregistrer dans le dictionnaire
 for saison in saisons:
     titres_episode = saison.find_all('i')
     for titre_episode in titres_episode:
