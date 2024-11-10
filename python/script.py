@@ -2,7 +2,7 @@ import requests as rq
 from bs4 import BeautifulSoup as bs
 import csv
 
-# Étape 0 : créer le dictionnaire de données et le compteur d'épisodes
+# Étape 0 : créer le dictionnaire de données et le compteur d'épisodes pour la numérotation
 liste_episodes = {}
 compteur = 0
 
@@ -11,7 +11,7 @@ url = "https://fr.wikipedia.org/wiki/Goldorak"
 contenu = rq.get(url).text
 soup = bs(contenu, "html.parser")
 
-# Étape 2 : extraire les informations contenues dans chaque division de class "colonnes", qui contient la liste des épisodes (une division = une saison)
+# Étape 2 : extraire les informations contenues dans chaque division de class "colonnes" (une division de class "colonnes" = liste des épisodes d'une saison)
 saisons = soup.find_all('div', class_= "colonnes")
 
 # Étape 3 : extraire la liste des épisodes dans chaque division (une division = une saison) et les enregistrer dans le dictionnaire
