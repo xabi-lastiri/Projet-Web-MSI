@@ -19,6 +19,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    justify-items: center;
 }
 
 p {
@@ -26,8 +27,8 @@ p {
 }
 
 .selection {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 header {
@@ -99,7 +100,7 @@ h3 {
 }
 
 main {
-    padding: 100px;
+    width: 80%;
 }
 
 
