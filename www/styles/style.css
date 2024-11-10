@@ -1,10 +1,11 @@
-/* Retro Background with Gradient Shift */
+/* Pour animer le fond d'écran */
 @keyframes gradientShift {
     0% { background-color: #f2eecb; }
     50% { background-color: #d8b5a5; }
     100% { background-color: #f2eecb; }
 }
 
+/* Pour ajouter une police personnalisée */
 @font-face {
     font-family: 'montserrat';
     src: url(montserrat.ttf)
@@ -29,15 +30,14 @@ p {
     padding-right: 20%;
 }
 
-/* Header Styling */
 header {
-    background-color: #FFD700; /* Choose one */
+    background-color: #FFD700;
     height: 200px;
     width: 100%;
     text-align: center;
     color: #333;
     font-family: 'montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 25px;
     border-bottom: 4px solid #FFA500;
     text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.6);
     padding: 20px;
@@ -45,11 +45,6 @@ header {
     color: #fff;
 }
 
-section {
-    background-color: #D8A79F;
-}
-
-/* Retro Navigation Styling */
 nav ol {
     display: flex;
     gap: 30px;
@@ -61,7 +56,7 @@ nav ol {
 
 nav .navigation a {
     text-decoration: none;
-    color: #333; /* Choose #333 or #fff */
+    color: #333;
     font-weight: bold;
     padding: 10px 15px;
     border: 2px solid #333;
@@ -80,7 +75,6 @@ nav .navigation a:hover {
     50% { transform: translateY(-5px); }
 }
 
-/* Section Styling with Retro Borders */
 section {
     padding: 20px;
     margin: 20px 0;
@@ -88,21 +82,6 @@ section {
     border: 3px solid #333;
     border-radius: 8px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-}
-
-/* Thumbnail Images */
-.thumbnail {
-    width: 500px;
-    height: auto;
-    border-radius: 10px;
-    border: 2px solid #ddd;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Hover effect for images */
-.thumbnail:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Text Spacing for Titles with Retro Glow */
@@ -143,11 +122,11 @@ footer {
 }
 
 footer a {
-    color: #555; /* Chose the color style */
+    color: #555;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #d62727; /* Only one hover color */
+    color: #d62727;
 }

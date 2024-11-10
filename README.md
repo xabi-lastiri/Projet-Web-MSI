@@ -2,7 +2,6 @@
 
 Ce projet de site internet présente nos dessins animés favoris d’enfance, en plusieurs langues (arabe, français et chinois).
 
-
 ## **Sites internet similaires**
 
 Bien qu’il n’existe pas de plateformes spécifiquement dédiées à ce thème, certains articles de blog, publications sur les réseaux sociaux ou pages de sites centrées sur la cinématographie proposent des sélections de dessins animés pour susciter la nostalgie.
