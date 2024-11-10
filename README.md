@@ -20,11 +20,13 @@ Ils sont composés de codes HTML, CSS et JavaScript (pour les animations).
 ## Moodboard
 ![image](https://github.com/user-attachments/assets/ec1ec72d-056f-495c-aca8-9a410bff8d16)
 
-_Source : moodboard généré à partir de nos réflexions via Dal-e._
+_Source : moodboard généré via Dal-e à partir de nos réflexions._
 
 ## Palette de couleurs
 
 ![image](https://github.com/user-attachments/assets/d2573aca-1d5a-46f3-b1ec-8409b439be47)
+
+_Palette générée via l'outil coolors._
 
 ## Police d'écriture
 
@@ -32,18 +34,24 @@ _Source : moodboard généré à partir de nos réflexions via Dal-e._
 
 _Source : Wikimedia Foundation_
 
+Nous avons intégré la police Montserrat, téléchargée depuis Google Fonts, en tant que police personnalisée dans les fichiers du projet.
+
 ## Open Data
 
 Notre requête : https://recherche-entreprises.api.gouv.fr/search?activite_principale=59.11C&categorie_entreprise=GE&minimal=true&include=siege%2Ccomplements&page=1&per_page=25
 
-Nous avons recherché une liste d'entreprises évoluant dans le secteur de la production audiovisuelle en France (A), et dans le monde (B).
+Nous avons recherché une liste d'entreprises spécialisées dans la production audiovisuelle, en France (A) et à l'international (B).
 
 ### Entreprises françaises
-Nous avons d'abord identifié le code NAF 5911C pour les entreprises produisant des films en France. Ensuite, nous avons ajusté la catégorie d'entreprise parmi GE, ETI et PME afin d'obtenir des résultats plus précis. Nous avons constaté qu'il existe plus de 7000 entreprises de type PME, 71 entreprises ETI et 23 entreprises GE. Nous avons choisi les grandes entreprises car elles représentent mieux l'industrie en France.
 
-En important les données dans Flourish, un problème est apparu : seule l'année de création s’affichait correctement. Pour rendre le graphique plus intéressant, nous avons ajouté manuellement les coordonnées de latitude et de longitude. Finalement, nous avons obtenu un graphique de type Locator Map.
+En France, nous avons d'abord identifié le code NAF 5911C pour les entreprises produisant des films, puis ajusté la catégorie d'entreprise entre GE, ETI et PME pour obtenir des résultats ciblés. Nous avons trouvé plus de 7000 entreprises PME, 71 ETI, et 23 grandes entreprises (GE). Nous avons retenu les grandes entreprises, car elles offrent une meilleure représentation de l'industrie nationale.
+
+Lors de l’importation des données dans Flourish, un problème est survenu : seule l’année de création s’affichait correctement. Pour enrichir le graphique, nous avons ajouté manuellement les coordonnées de latitude et de longitude, ce qui nous a permis de créer un graphique de type Locator Map.
 
 ### Entreprises dans le monde
-De plus, pour une vue d'ensemble mondiale, nous avons récupéré les informations sur les 10 plus grandes entreprises de dessins animés grâce à ChatGPT et créé un second Locator Map.
+
+Pour une vue plus globale, nous avons également récupéré les informations des 10 plus grandes entreprises de dessins animés dans le monde, via ChatGPT, et créé un deuxième Locator Map.
 
 ## Web Scraping
+
+Le script Python extrait la liste ordonnée des épisodes de la série Goldorak depuis la page https://fr.wikipedia.org/wiki/Goldorak et les enregistre dans un fichier CSV.
